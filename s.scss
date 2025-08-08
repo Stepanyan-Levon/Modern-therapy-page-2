@@ -116,7 +116,7 @@ body{
 }
 .about3{
   width: 38%;
-  padding: 60px 0;
+  margin: auto;
   p{
     font-size: 18px;
     font-family: "Open Sans sans-serif";
@@ -265,7 +265,7 @@ body{
   bottom: 80px;
 
   h3 {
-    font-size: 40px;
+    font-size: 36px;
     padding: 25px;
   }
 
@@ -295,14 +295,14 @@ body{
   background: white;
 
   h3 {
-    font-size: 30px;
+    font-size: 24px;
     padding: 25px;
     text-align: center;
   }
 
   p {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     padding: 25px;
   }
 
@@ -323,21 +323,24 @@ body{
   padding: 10px;
   background-color: #F2F2F2;
   h3{
-    font-size: 30px;
+    font-size: 20px;
+    font-family: "Open Sans sans-serif";
     padding: 15px;
     text-align: center;
   }
   p{
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     padding: 15px;
+    font-family: "Open Sans sans-serif";
   }
 }
 .sec-7{
   margin: 15px 0;
-  background: linear-gradient(90deg, rgba(173, 204, 233, 1) 67%, rgba(247, 182, 185, 1) 66%, rgba(247, 182, 185, 1) 100%, rgba(173, 204, 233, 1) 86%);
+  background: #ADCCE9;
+  background: linear-gradient(90deg, rgba(173, 204, 233, 1) 53%, rgba(247, 182, 185, 1) 53%, rgba(173, 204, 233, 1) 49%, rgba(247, 182, 185, 1) 53%);
   h3{
-    font-size: 50px;
+    font-size: 60px;
     text-align: right;
     padding: 30px 10px
   }
