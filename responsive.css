@@ -4,15 +4,31 @@
         width: 55%;
     }
     .about{
-        width: 45%;
+        width: 44%;
+        h3{
+            font-size:48px;
+        }
     }
     .about2{
-        width: 38%;
-        padding:60px;
+        width: 44%;
+       margin: auto;
+        h3{
+            font-size:48px;
+        }
     }
+
     .about3{
-        width: 45%;
-        padding:60px;
+        width: 30%;
+    }
+    .about4{
+        width: 44%;
+        margin: auto;
+        h3{
+            font-size:48px;
+        }
+    }
+    .background-colors{
+        margin: auto;
     }
     .big-img{
         width: 68%;
@@ -24,36 +40,59 @@
         width: 50%;
         padding: 60px;
     }
+    .workshops{
+        width: 40%;
+        height: 500px;
+        left: 3%;
+        bottom: 10%;
+    }
+    .program{
+        width: 46%;
+        bottom: 30px;
+        right: 20px;
+    }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
     .img1{
-        width: 78%;
+        width: 66%;
     }
     .about{
-        width: 78%;
+        width: 34%;
     }
     .about2{
-        width: 78%;
-        padding:60px;
+        width: 31%;
     }
     .about3{
-        width: 78%;
-        padding:60px;
+        width: 22%;
+    }
+    .about4{
+        width: 47%;
     }
     .big-img {
-        width: 68%;
-        padding: 33px;
+        width: 63%;
+        margin:auto;
     }
     .informations{
-        width: 32%;
+        width: 63%;
+        margin: auto;
     }
     .mini-about {
         width: 80%;
     }
     .background-colors {
-        width: 44%;
+        width: 60%;
         display: flex;
         margin: auto;
+         .box {
+            width: 450px;
+             height: 445px;
+        }
+        .img3{
+            height: 490px;
+        }
+        .img4{
+            height: 585px;
+        }
     }
     .container-md {
         padding: 10px;
@@ -72,7 +111,6 @@
         width: 52%;
         bottom: 21%;
         height: max-content;
-        padding: 3px;
     }
     .sec-4 {
         img{
@@ -90,58 +128,80 @@
 }
 
 @media only screen and (max-width: 700px) {
+    .img1 {
+        width: 78%;
+    }
+
+    .about {
+        width: 78%;
+    }
+
     .big-img {
         width: 100%;
     }
 
-    .informations {
-        width: 100%;
+    .about2 {
+        width: 71%;
+    }
 
-        .info {
-            height: 300px;
-        }
+    .about3 {
+        width: 65%;
+    }
+
+    .big-img {
+        width: 70%;
+        height: auto;
+    }
+
+    .informations {
+        width: 69%;
+    }
+
+    .info {
+        height: 300px;
+    }
+
+    .mini-about {
+        width: 100%;
     }
 
     .background-colors {
-        .img3 {
-            width: 100%;
-            top: 60px;
-            right: 72px;
-            left: auto;
+        .box{
+            width: 300px;
         }
-
-        .mission {
-            width: 100%;
-            padding: 15px 20px;
+        .img4 {
+            height: 500px;
         }
-
-        .workshops {
-            width: 59%;
-            height: 600px;
-            position: relative;
-            left: 25px;
-            bottom: 25px;
-            background: white;
+    }
+    .workshops{
+        width: 70%;
+        position: static;
+    }
+    .banner {
+        gap: 0;
+    }
+    .program{
+        width: 70%;
+        bottom: 0;
+        margin: 10px;
+    }
+    .about4 {
+        width: 82%;
+    }
+    .about3{
+        width: 82%;
+    }
+    .mission {
+        width: 92%;
+        margin: auto;
+    }
+    .sec-7{
+        p{
+            font-size: 18px;
         }
-
-        .banner {
-            gap: 0;
-        }
-
-        .program {
+        img {
             width: 76%;
-            height: 438px;
-            background: white;
-            align-self: end;
-            position: relative;
-            right: 49px;
-            bottom: 16px;
-        }
-
-        .sec-7 img {
-            height: 555px;
-            width: 100%;
-            padding: 45px;
+            margin: auto;
             object-fit: cover;
         }
     }
